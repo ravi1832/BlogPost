@@ -6,7 +6,7 @@ var methodOverride=require('method-override');
 var sanitizer=require('express-sanitizer');
 
 //App config
-mongoose.connect('mongodb+srv://ravi1:ravi1@firstcluster-qhq8d.mongodb.net/test?retryWrites=true&w=majority',{useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true,useFindAndModify: false  });
+mongoose.connect('mongodb+srv://[username]:[password]@firstcluster-qhq8d.mongodb.net/test?retryWrites=true&w=majority',{useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true,useFindAndModify: false  });
 
 app.use(methodOverride("_method"));
 app.set('view engine','ejs');
