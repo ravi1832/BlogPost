@@ -1,0 +1,18 @@
+i.icon{
+    font-size: 1.5rem;
+}
+.ui.main.container.segment{
+    margin-top: 7.0rem !important;
+}
+.ui.main{
+    margin-top: 7.0rem !important;
+}
+.content.ko{
+    text-align: center;
+}
+.description.ko{
+    text-align: center;
+}
+#delete{
+    display: inline;
+}
